@@ -1,10 +1,12 @@
 <html>
-  <head>
+  <head></head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/gh/gh-canon/stack-snippet-console@master/console.js"></script>
     <script src="node_modules/@grain/js-runner/dist/grain-runner-browser.js"></script>
     <script>
       let locator = Grain.defaultURLLocator(['/', 'node_modules/@grain/stdlib']);
       let GrainRunner = Grain.buildGrainRunner(locator);
       GrainRunner.runURL('hello.gr.wasm');
     </script>
-  </head>
+  </body>
 </html>

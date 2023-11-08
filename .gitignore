@@ -1,3 +1,4 @@
 node_modules
 **/*.gr.wasm
 stdlib/*.md
+package-lock.json
